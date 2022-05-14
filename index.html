@@ -1,228 +1,139 @@
-
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 <head>
-<title>Know your car - Registration app</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="css/slider.css" rel="stylesheet" type="text/css" media="all"/>
-<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> 
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript" src="js/startstop-slider.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atsogo</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body>
-  <div class="wrap">
-	<div class="header">
-		<div class="headertop_desc">
-			<div class="call">
-				 <p><span>Need help?</span> call us <span class="number">+265 999 2272 058</span></span></p>
-			</div>
-			
-			<div class="clear"></div>
-		</div>
-		<div class="header_top">
-			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt="" /></a>
-			</div>
-			  
-			  <script type="text/javascript">
-			function DropDown(el) {
-				this.dd = el;
-				this.initEvents();
-			}
-			DropDown.prototype = {
-				initEvents : function() {
-					var obj = this;
-
-					obj.dd.on('click', function(event){
-						$(this).toggleClass('active');
-						event.stopPropagation();
-					});	
-				}
-			}
-
-			$(function() {
-
-				var dd = new DropDown( $('#dd') );
-
-				$(document).click(function() {
-					// all dropdowns
-					$('.wrapper-dropdown-2').removeClass('active');
-				});
-
-			});
-
-		</script>
-	 <div class="clear"></div>
-  </div>
-	
-
-
-<body>
-  <form method="post" autocomplete="off" name="google-sheet">
-  	<center>
-         <b></b><h1><b>KYC REGISTRATION FORM</b></h1><b>
-         <table border="5">	
-            <!DOCTYPE html>  
-<html>  
-<head>  
-<meta name="viewport" content="width=device-width, initial-scale=1">  
-<style>  
-body{  
-  font-family: Calibri, Helvetica, sans-serif;  
-  background-color: pink;  
-}  
-.container {  
-    padding: 50px;  
-  background-color: lightblue;  
-}  
-  
-input[type=text], input[type=password], textarea {  
-  width: 100%;  
-  padding: 15px;  
-  margin: 5px 0 22px 0;  
-  display: inline-block;  
-  border: none;  
-  background: #f1f1f1;  
-}  
-input[type=text]:focus, input[type=password]:focus {  
-  background-color: orange;  
-  outline: none;  
-}  
- div {  
-            padding: 10px 0;  
-         }  
-hr {  
-  border: 1px solid #f1f1f1;  
-  margin-bottom: 25px;  
-}  
-.registerbtn {  
-  background-color: #4CAF50;  
-  color: white;  
-  padding: 16px 20px;  
-  margin: 8px 0;  
-  border: none;  
-  cursor: pointer;  
-  width: 100%;  
-  opacity: 0.9;  
-}  
-.registerbtn:hover {  
-  opacity: 1;  
-}  
-</style>  
-</head>  
-<body>  
-<form>  
-  <div class="container">  
-  <center>  <h1>Basic Information</h1> </center>  
-  <hr>  
-  <label> Firstname </label>   
-<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
-<label> Middlename: </label>   
-<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
-<label> Lastname: </label>    
-<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
-<div>  
-<label>   
-Occupation :
-</label><br>   
-<input type="radio" value="Student" name="occupation" checked > Student
-<input type="radio" value="Business" name="occupation" checked > Business
-<input type="radio" value="Employed" name="occupation" checked > Employed <br>
-<input type="radio" value="Self Employed" name="occupation" checked > Self Employed
-<input type="radio" value="Other" name="occupation" checked > Other
+<body class="is-boxed has-animations">
+    <div class="wrap">
+        <div class="header">
+            <div class="headertop_desc">
+                <center>
+                <div class="call">
+                     <p><span>Need help?</span> call us <span class="number">+265888052362</span></span></p>
+                </div>
+                </center>
+                
+                <div class="clear"></div>
+            </div>
+            <div class="header_top">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                </div>
     
-</div>  
-<div>  
-<label>   
-Gender :  
-</label><br>  
-<input type="radio" value="Male" name="gender" checked > Male   
-<input type="radio" value="Female" name="gender"> Female   
+                <marquee behavior="scroll" direction="left">This is <b>Atsogo Properties</b> Official Mobile App | We are situated in Area 47 sector 4, Bwatalika street, gate No 25, Lilongwe  |  Email : info@atsogo.mw
 
-  
-</div>  
-<label>   
-Phone :  
-</label>
-<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
-
-Current Address :  
- 
-<textarea cols="80" rows="5" placeholder="location" name="location" value="address" required>  
-</textarea>  
- <label for="email"><b>Email</b></label>  
- <input type="text" placeholder="Enter" name="email" required>  
-  
+                </marquee>
     
-    <button type="submit" class="registerbtn">Register</button>   
-   
-</form>  
-</body>  
-</html>  
+    <div class="body-wrap">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+							<a href="#">
+								<img class="header-logo-image" src="src/images/Atsogo.jpg" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
 
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">WELCOME TO</h1>
+	                        <p class="hero-paragraph">Atsogo Estate Agents</p>
+	                        <div class="hero-cta"><a class="button button-primary" href="www.atsogo.mw">Home</a></div>
+                            <div class="hero-cta"><a class="button button-primary" href="https://atsogo.mw/properties">Properties</a></div>
+                            <div class="hero-cta"><a class="button button-primary" href="https://atsogo.mw/our_services">Services</a></div>
+                            <div class="hero-cta"><a class="button button-primary" href="info@atsogo.mw">Email</a></div>
+                            <div class="hero-cta"><a class="button button-primary" href="https://atsogo.mw/subscribe">Subscribe</a></div>
+						</div>
+                    </div>
+                </div>
+            </section>
+            <section class="pricing section">
+                <div class="container-sm">
+                    <div class="pricing-inner section-inner">
+                        <div class="pricing-header text-center">
+                            <h2 class="section-title mt-0">About Us</h2>
+                            <p class="section-paragraph mb-0">Atsogo Estate Agent is registered real Estate Agent whose core purpose is to bridge the gap between the prospective clients and the property owners. We are committed to be the best, trusted, reliable and most professional estate agent.</p>
+                        </div>
+						
+                    </div>
+                </div>
+            </section>
 
+			<section class="cta section">
+				<div class="container">
+					<div class="cta-inner section-inner">
+						<h3 class="section-title mt-0">Want to see whats happening?</h3>
+						<div class="cta-cta">
+							<a class="button button-primary button-wide-mobile" href="https://atsogo.mw/blog/news">Visit our blog!</a>
+						</div>
+					</div>
+				</div>
+			</section>
+        </main>
 
-           
-           
-         </table>
-         <br><br>
-         
-    </center>
-  </form>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+						<a href="www.atsogo.mw">
+							<img class="header-logo-image" width="100px" height="100px" src="src/images/Atsogo.jpg" alt="Logo">
+						</a>
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="https://atsogo.mw/contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="https://atsogo.mw/about_us">About</a>
+                        </li>
+                        <li>
+                            <a href="https://atsogo.mw/properties">Properties</a>
+                        </li>
+                        <li>
+                            <a href="https://atsogo.mw/our_services">Services</a>
+                        </li>
+                        <li>
+                            <a href="info@atsogo.mw">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://atsogo.mw/subscribe">Subscribe</a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a href="https://web.facebook.com/Atsogoproperties">
+                                <span class="screen-reader-text">Facebook</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#0270D7"/>
+                                </svg>
+                            </a>
+                        </li>
+                   
+                    </ul>
+                    <center>
+                    <div class="footer-copyright">&copy; 2022 Atsogo Estate Agents, all rights reserved.Designed by Shepherd Zisper Phiri</div>
+                    </center>
+                </div>
+            </div>
+        </footer>
+    </div>
 
-  <script type="text/javascript">
-
-
-	  const scriptURL = 'https://script.google.com/macros/s/AKfycbwaSDHCt_DYIhm9-7L0_47PkOjLwQPkKMfRhLw9KsDKs5HDuRIJ8u0NKjaTVOZAamtf/exec'
-            const form = document.forms['google-sheet']
-          
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("You have successfully submitted."))
-                .catch(error => console.error('Error!', error.message))
-            })
-  </script>
-
-<div class="footer">
-    <div class="wrap">	
-    <div class="section group">
-        <center>
-           
-           <div class="col_1_of_4 span_1_of_4">
-               <h4>Contact</h4>
-                   <ul>
-                       <li><span>+265 992 272 058</span></li>
-                       <li><span>+265 889 612 323</span></li>
-                   </ul>
-                   <div class="social-icons">
-                       <h4>Follow Us</h4>
-                            <ul>
-                             <li><a href="#" target="_blank"><img src="images/facebook.png" alt="" /></a></li>
-                            
-                        </ul>
-                       </div>
-           </div>
-
-        </center>
-       </div>			
-   </div>
-   <div class="copy_right">
-           <p>&copy; Know Your Car Malawi. All rights reserved | Design by <a href="#">Shepherd Zisper Phiri</a></p>
-      </div>
-</div>
-<script type="text/javascript">
-   $(document).ready(function() {			
-       $().UItoTop({ easingType: 'easeOutQuart' });
-       
-   });
-</script>
-<a href="#" id="toTop"><span id="toTopHover"> </span></a>
-</body>
-</html>
-
-
+    <script src="dist/js/main.min.js"></script>
 </body>
 </html>
