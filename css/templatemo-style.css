@@ -657,7 +657,7 @@ footer a {
 
   .cd-slider-nav ul .selected img {
     border-bottom: 3px solid #fff;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
@@ -673,8 +673,8 @@ footer a {
   .cd-slider-nav {
     background-color: #ffbb05;
     width: 100%;
-    height: 80px;
-    line-height: 80px;
+    height: 100px;
+    line-height: 100px;
     margin: 0 auto;
     text-align: center!important;
   }
